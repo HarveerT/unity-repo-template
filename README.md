@@ -1,5 +1,8 @@
 # Introduction
 Short and sweet intro
+- REPLACE ALL METIONS OF ${\textsf{\color{red}'ProjectName'}}$ WITH THE ACTUAL PROJECT NAME
+
+
 
 ## Index or Table of Contents
 - [About](#about)
@@ -7,6 +10,11 @@ Short and sweet intro
 - [Development](#development)
   - [TO-DO](#to-do)
   - [File Structure](#file-structure)
+  - [File Descriptions](#file-descriptions)
+  - [Style Sheet](#style-sheet)
+- [Branches](#branches)
+- [Gallery](#gallery)
+- [Credits/Acknowledgments](#creditsacknowledgments)
 
 ## About
 Detailed intro to the game. Everything someone would need to know.
@@ -15,7 +23,7 @@ Detailed intro to the game. Everything someone would need to know.
 A brief synopsis on how to download and use/develop the project
 1. Clone repo to your machine
 2. Open unity and click Add
-3. Navigate to the repo and find the ProjectName folder and open it
+3. Navigate to the repo and find the ***~~ProjectName~~*** folder and open it
 4. Allow unity to load and compile, open the StartingStage scene 
 
 ## Development
@@ -65,6 +73,7 @@ Add a file structure here with the basic details about files, below is an exampl
 └── README.md
 ```
 
+### File Descriptions
 | File Name | File Decription | File Path 
 |-|-|-|
 | MovementController  | Uses the user input from the action map script to move the player using the WASD keys or controller input | ProjectName/Assets/Scripts/MovementController.cs
@@ -100,29 +109,25 @@ Please follow the rules laid out in [Google's C# Style Sheet](https://google.git
     5. Private
 
 ## Branches
-I keep two branches open
+1. **`stage`** branch for staging changes to main
 
-1. **`stage`** is the development branch.
+2. **`main`** current most clean branch
 
-2. **`main`** is the production branch.
+3. **`temp`** branch for implementing new features
 
-3. No other permanent branches should be created in the main repository, you can create feature branches but they should get merged with the master.
+**Temporary Branches**  
+Temporary branches are for adding new features which should not be developed in the regular staging branch. To create a temporary branch, create a branch with the format: `temp-feature`. Where `temp` is the prefix for all temporary branches and `feature` is the feature this branch is implementing. For example `temp-bullet-time` would be the branch name for a bullet time feature.
 
-**Steps to work with feature branch**
-
-1. To start working on a new feature, create a new branch prefixed with `feat` and followed by feature name. (ie. `feat-FEATURE-NAME`)
-2. Once you are done with your changes, you can raise PR.
-
-**Steps to create a pull request**
-
+**Pull Requests for Temporary Branches**
 1. Make a PR to `stage` branch.
-2. Comply with the best practices and guidelines e.g. where the PR concerns visual elements it should have an image showing the effect.
-3. It must pass all continuous integration checks and get positive reviews.
+2. Comply with the best practices and guidelines
+3. Pass reviews and merge with stage.
 
 After this, changes will be merged.
 
 ## Gallery
-Pictures of your project.
+Pictures of project
 
-## Credit/Acknowledgment
-Credit the authors here.
+## Credits/Acknowledgments
+Credit to authors  
+@me lmao I don't have friends
