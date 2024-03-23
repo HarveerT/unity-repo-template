@@ -23,7 +23,7 @@ Detailed intro to the game. Everything someone would need to know.
 A brief synopsis on how to download and use/develop the project
 1. Clone repo to your machine
 2. Open unity and click Add
-3. Navigate to the repo and find the ***~~ProjectName~~*** folder and open it
+3. Navigate to the repo and find the ${\textsf{\color{red}'ProjectName'}}$ folder and open it
 4. Allow unity to load and compile, open the StartingStage scene 
 
 ## Development
@@ -91,8 +91,8 @@ Assets
 ### File Descriptions
 | File Name | File Decription | File Path 
 |-|-|-|
-| MovementController  | Uses the user input from the action map script to move the player using the WASD keys or controller input | ProjectName/Assets/Scripts/MovementController.cs
-| Input | Action map for input, creates input and auto generates Input.cs script. All controls are first created here | ProjectName/Assets/Input/Input
+| MovementController  | Uses the user input from the action map script to move the player using the WASD keys or controller input | ${\textsf{\color{red}'ProjectName'}}$/Assets/Scripts/MovementController.cs
+| Input | Action map for input, creates input and auto generates Input.cs script. All controls are first created here | ${\textsf{\color{red}'ProjectName'}}$/Assets/Input/Input
 
 ###  Style Sheet
 Style sheet for all C# code in this project
