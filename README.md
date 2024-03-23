@@ -48,7 +48,7 @@ A list of things that need to be done
 - [ ] Finishing Touches
   - [ ] Post processing
   - [ ] Lighting?
-    - [ ] We can go farther
+    - [ ] We can go further
 - [ ] Etc.
   - [ ] Etc.
     - [ ] Etc.
