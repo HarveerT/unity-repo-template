@@ -73,6 +73,21 @@ Add a file structure here with the basic details about files, below is an exampl
 └── README.md
 ```
 
+Another Example
+```
+Assets
++-- Scripts
+|   +-- PlayerScripts
+|   |   +-- PlayerMovementController.cs
+|   |   +-- PlayerAimController.cs
+|   +-- WeaponScripts
+|   |   +-- someFile
++-- Prefabs
+|   +-- Drops
+|   |   +-- SomeDrop
+|   |   +-- AnotherDrop       
+```
+
 ### File Descriptions
 | File Name | File Decription | File Path 
 |-|-|-|
